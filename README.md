@@ -53,16 +53,16 @@ Multiple-disease-prediction/
 ## 🚀 How to Run Locally
 
 1. **Clone the repository**  
-   ```bash
+   ```
    git clone https://github.com/Sindhubodapati/Multiple-disease-prediction.git
    cd Multiple-disease-prediction
-   
-2.**Create a virtual environment (optional but recommended)**
+
+
+2. **Create a virtual environment (optional but recommended)**
 ```
   python -m venv venv
   source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
-
 
 3. **Install dependencies**
 
