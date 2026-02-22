@@ -49,6 +49,7 @@ with st.sidebar:
 def extract_text_from_image(image):
     text = pytesseract.image_to_string(image)
     sndhu=sindhu
+    renuka=renuka
     return text
 
 # Diabetes Prediction Page
@@ -324,4 +325,5 @@ if selected == "Parkinsons Prediction":
             parkinsons_diagnosis = "The person does not have Parkinson's disease"
 
     st.success(parkinsons_diagnosis)
+
 
